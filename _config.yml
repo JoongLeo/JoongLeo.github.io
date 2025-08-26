@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Jihong Li (李季鸿)"
-description              : "Ph.D. student, King Abdullah University of Science and Technology (KAUST). Focusing on 4D reconstruction and generation, AISafety, image synthesis, and remote sensing image processing."
+description              : "Ph.D. student, NanKai University. Focusing on diffusion models for image synthesis, and remote sensing image processing."
 repository               : "joongleo/joongleo.github.io"
 google_scholar_stats_use_cdn : false
 
