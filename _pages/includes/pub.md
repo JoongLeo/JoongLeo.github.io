@@ -4,7 +4,7 @@
 <div class='paper-box-text' markdown="1">
 
 <a class=PaperTitle href="https://arxiv.org/abs/2508.12605"><b>ViDA-UGC: Detailed Image Quality Analysis via Visual Distortion Assessment for UGC Images</b></a> \\
- *Arxiv preprint, 2025.08* \\
+ *Arxiv preprint version, 2025.08* \\
 Wenjie Liao, Jieyu Yuan, Yifang Xu, Chunle Guo, Zilong Zhang, **<font color="#C00000">Jihong Li</font>**, Jiachen Fu, Haotian Fan, Tao Li, Junhui Cui, and Chongyi Li \\
 [<a href="https://whycantfindaname.github.io/ViDA-UGC/">Website</a>] [<a href="https://github.com/DYEvaLab/ViDA-MIPI-code">Code</a>] [<a href="https://arxiv.org/abs/2508.12605">ArXiv</a>]
 
