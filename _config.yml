@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Jihong Li (李季鸿)"
+title                    : "Jihong Li(李季鸿)"
 description              : "Ph.D. student, NanKai University. Focusing on diffusion models for image synthesis, and remote sensing image processing."
 repository               : "joongleo/joongleo.github.io"
 google_scholar_stats_use_cdn : false
@@ -21,9 +21,9 @@ baidu_site_verification  :
 
 # Site Author
 author:
-  name             : "Jihong Li<br/>(李季鸿)"
+  name             : "Jihong Li(李季鸿)"
   avatar           : "images/Profi.jpg"
-  bio              : "NKU"
+  bio              : # "NKU"
   location         : "TianJin China"
   employer         :
   pubmed           : 
