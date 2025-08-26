@@ -1,20 +1,2 @@
 # 🔥 News
-- *2025.06*: One paper is accepted by ***<font color="red">ICCV 2025</font>***, and one paper is accepted by ***<font color="red">TIFS</font> (IF=8.0)***!!
-- *2025.01*: One paper is accepted by ***<font color="red">ICLR 2025</font>***!
-- *2024.11*: One paper is accepted by ***<font color="red">TMM</font> (IF=8.4)***!
-- *2024.10*: One paper is accepted by ***<font color="red">TPAMI</font> (IF=20.8)***!
-- *2024.07*: One paper is accepted by ***<font color="red">TGRS</font> (IF=7.5)***!
-- *2024.05*: One paper is accepted by ***<font color="red">TGRS</font> (IF=7.5)***!
-- *2024.01*: One paper is accepted by ***<font color="red">ICLR 2024</font> (Spotlight)***!
-- *2023.12*: One paper is accepted by ***<font color="red">TGRS</font> (IF=7.5)***!
-- *2023.10*: One paper is accepted by ***<font color="red">TCSVT</font> (IF=8.3)***!
-- *2023.09*: One paper is accepted by ***<font color="red">TGRS</font> (IF=7.5)***!
-- *2023.07*: We have released ***[Gradio Demo](https://huggingface.co/spaces/WindVChen/INR-Harmon)*** of our ***[INR-Harmonization](https://github.com/WindVChen/INR-Harmonization)*** in Huggingface Space. Feel free to play around it 🎉🎉!
-- *2023.06*: One paper is accepted by ***<font color="red">MICCAI</font> (STAR Award)***!
-- *2023.05*: Honored to be invited to give talks about ***<font color="#224b8d">Diffusion Editing and Harmonization</font>*** for OPPO Research Institute!
-- *2023.05*: One paper is accepted by ***<font color="red">TGRS</font> (IF=7.5)***!
-- *2023.02*: ***<font color="blue">1/2</font>*** papers are accepted by ***<font color="red">CVPR 2023</font>***, and one paper is accepted by ***<font color="red">CBM</font> (IF=7.0)***!
-- *2022.12*: One paper is accepted by ***<font color="red">GRSL</font> (IF=4.0)***!
-- *2022.07*: One paper is accepted by ***<font color="red">TGRS</font> (IF=7.5)***!
-- *2022.06*: One paper is accepted by ***<font color="red">TGRS</font> (IF=7.5)***!
-- *2022.05*: Achieve the 5th place in ***[Track I: Classification Task Defense](https://artofrobust.github.io/)*** and the 6th place in ***[Track II: Open Set Defense](https://artofrobust.github.io/)***, CVPR 2022 Robust Models towards Open-world Classification 🎉🎉!
+- *2025.06*: One paper is released on ***<font color="red">Arxiv 2025.08</font>***!!
