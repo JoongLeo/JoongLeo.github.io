@@ -1,5 +1,5 @@
 html {-webkit-text-size-adjust: 100%; -moz-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
-body {background-color: #fdfdfd; color: #234; margin: 0; font-size: 13px;}
+body {background-color: #fdfdfd; color: #234; margin: 0; min-height: 100vh; display: flex; flex-direction: column; font-size: 13px;}
 h1 {margin-bottom: 32px; font-size: 2.6em;}
 h2 {margin-top: 48px;}
 h1, h2 {color: #234;}
@@ -10,7 +10,7 @@ h1, h2, h3, h4, h5, a, p, span, body, div {font-weight: normal; font-family: 'La
 .header-profile-picture, .header-text {display: inline-block;}
 .header-name h1 {margin: 0;}
 .header-subtitle {margin-bottom: 12px;}
-.header-profile-picture {width: 180px; height: 180px; margin-right: 12px; border-radius: 50%; background-image: url(/assets/profile.jpg); background-position: center; background-size: contain;}
+.header-profile-picture {width: 180px; height: 180px; margin-right: 12px; border-radius:50%; background-image: url(/assets/ljh.jpg); background-position: center; background-size: contain;}
 .content {max-width: 748px; padding-left: 16px; padding-right: 16px; margin: auto; margin-top: 48px;}
 .hr {width: 100%; height: 1px; margin: 48px 0; background-color: #d6dbdf;}
 a {color: #2471a3; text-decoration: none;}
@@ -21,6 +21,7 @@ p {line-height: 1.5em;}
 .bold {font-weight: bold;}
 .italic {font-style: italic;}
 .bulletpoints {line-height: 1.5em;}
+[hidden] {display: none !important;}
 .row {box-sizing: border-box;}
 .row-media {display: block; float: left; width: 160px; height: 90px; background-position: center; background-size: contain; background-repeat: no-repeat;}
 .row-text {display: block; float: left; margin-left: 12px; line-height: 1.5em; max-width: 566px;}
@@ -30,7 +31,7 @@ p {line-height: 1.5em;}
 .publication.highlight {background-color: #fff8df; width: 100%; padding-top: 8px; padding-bottom: 8px; border-radius: 4px;}
 .press {width: 100px; height: 80px; border: 1px solid #def; margin-right: 12px; background-size: cover;}
 .img-contain {background-size: contain !important;}
-.footer {background-color: #345; width: 100%;}
+.footer {background-color: #345; width: 100%; margin-top: auto;}
 .footer-content {color: #fff; font-size: 10px; padding: 6px 0; max-width: 748px; margin: auto;}
 .footer-content a {color: #fff; text-decoration: underline;}
 .footer-content a:hover {color: #f09228 !important;}
@@ -50,9 +51,14 @@ p {line-height: 1.5em;}
     .press {display: block;}
 }
 
-/* timeline */
+
+/* time line */
 .timeline {
+    /* width: 60%; */
+    /* background: white; */
     padding: 20px;
+    /* border-radius: 10px; */
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
 }
 .timeline-item {
     margin-bottom: 20px;
@@ -92,6 +98,7 @@ table {
 }
 td {
     vertical-align: top;
+    /* padding: 10px; */
 }
 .icon {
     width: 200px;
@@ -116,9 +123,14 @@ td {
 
 /* news */
 .news-container {
+    /* width: 60%; */
     margin: auto;
-    max-height: 250px;
-    overflow-y: auto;
+    /* background: white; */
+    /* padding: 20px; */
+    /* border-radius: 10px; */
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    max-height: 250px; /* 限制高度以实现滚动效果 */
+    overflow-y: auto; /* 使内容可垂直滚动 */
 }
 .news-container h2 {
     margin-top: 0;
@@ -181,57 +193,11 @@ td {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(255, 255, 255, 0.4);
-    pointer-events: none;
-    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.4); /* White overlay */
+    pointer-events: none; /* Allow clicks to pass through */
+    border-radius: 4px; /* Match the border radius */
 }
 
 .publication.gray-overlay:hover::after {
-    background-color: rgba(255, 255, 255, 0.0);
-}
-
-/* Minimal placeholder styling; all layout rules above match the source template. */
-.placeholder-teaser {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px dashed #b9c0c8;
-    background: #f4f4f8;
-    color: #6d7781;
-    text-align: center;
-    letter-spacing: 0.08em;
-}
-.placeholder-teaser-alt {
-    background: #f7f4ec;
-}
-.placeholder-teaser small {
-    font-size: 9px;
-}
-.placeholder-logo {
-    display: inline-block;
-    width: 100px;
-    height: 50px;
-    border: 1px dashed #b9c0c8;
-    background: #f4f4f8;
-    color: #6d7781;
-    font-size: 11px;
-    line-height: 50px;
-    letter-spacing: 0.08em;
-}
-.todo-label {
-    color: #9a6b00;
-    font-weight: bold;
-}
-.todo-text {
-    color: #9a6b00;
-    font-weight: bold;
-}
-a[aria-disabled="true"] {
-    cursor: default;
-}
-
-@media only screen and (max-width: 1000px) {
-    .publication .placeholder-teaser {
-        display: flex;
-    }
+    background-color: rgba(255, 255, 255, 0.0); /* Fully transparent on hover */
 }
